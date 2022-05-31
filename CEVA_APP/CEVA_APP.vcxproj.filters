@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{5b9cf0c5-7b72-473b-bb74-4721c7c1a04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{1d75b24c-5a5e-4de5-a6f5-0a4204c92cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty">
+      <UniqueIdentifier>{db98b69a-f313-4f28-bc16-c7f47924e2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdparty\cJSON">
+      <UniqueIdentifier>{9b1ee861-bb40-4ece-a13b-77b05cef4dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{5ab88764-5426-4901-9da3-0840d447c487}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sdnn_test\ci_test\src\main\ceva_test.cc">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdnn_test\ci_test\src\models\ceva_model_base.cc">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdnn_test\ci_test\src\3rdparty\cJSON\cJSON.c">
+      <Filter>Source Files\3rdparty\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdnn_test\ci_test\src\utils\json_io.cc">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdnn_test\ci_test\src\utils\file_io.cc">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdnn_test\ci_test\src\models\ceva_classification_model.cc">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdnn_test\ci_test\src\models\ceva_model_base.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdnn_test\ci_test\src\3rdparty\cJSON\cJSON.h">
+      <Filter>Source Files\3rdparty\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdnn_test\ci_test\src\utils\json_io.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdnn_test\ci_test\src\utils\debug.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdnn_test\ci_test\src\utils\file_io.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdnn_test\ci_test\src\models\ceva_classification_model.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

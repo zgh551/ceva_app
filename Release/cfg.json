@@ -1,0 +1,30 @@
+{
+  "model": {
+    "name": "mobilenetv2",
+    "type": "onnx",
+    "path": "test/mbv3.onnx",
+    "domain": "classfication",
+    "inputs": [
+      {
+        "name": "data1",
+        "type": "float32",
+        "shape": [
+          1,
+          3,
+          224,
+          224
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "out1",
+        "type": "float32",
+        "shape": [
+          1,
+          1000
+        ]
+      }
+    ]
+  }
+}
